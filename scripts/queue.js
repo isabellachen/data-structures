@@ -21,3 +21,7 @@ Queue.prototype.dequeue = function() {
 Queue.prototype.size = function() {
   return this.start - this.end;
 };
+
+module.exports = {
+  Queue
+};
